@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8EB08EA61843FE0900BF1D1C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EB08EA51843FE0900BF1D1C /* main.cpp */; };
 		8EB08EA81843FE0900BF1D1C /* perfect_numbers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8EB08EA71843FE0900BF1D1C /* perfect_numbers.1 */; };
+		8EB08EAF1843FE4400BF1D1C /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB08EAE1843FE4400BF1D1C /* libpthread.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		8EB08EA21843FE0900BF1D1C /* perfect_numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfect_numbers; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB08EA51843FE0900BF1D1C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8EB08EA71843FE0900BF1D1C /* perfect_numbers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = perfect_numbers.1; sourceTree = "<group>"; };
+		8EB08EAE1843FE4400BF1D1C /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB08EAF1843FE4400BF1D1C /* libpthread.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		8EB08E991843FE0900BF1D1C = {
 			isa = PBXGroup;
 			children = (
+				8EB08EAE1843FE4400BF1D1C /* libpthread.dylib */,
 				8EB08EA41843FE0900BF1D1C /* perfect_numbers */,
 				8EB08EA31843FE0900BF1D1C /* Products */,
 			);
